@@ -1,0 +1,24 @@
+
+{
+    "userId": "67cdbb10d343c7b2892c8b1f",
+    "title": "A Clockwork Orange",
+    "author": "Anthony Burgess",
+    "year": 1962,
+    "genre": "Science-fiction",
+    "ratings": [
+        {
+        "userId": "67cdbb10d343c7b2892c8b1f",
+        "rating": 5
+        }
+    "averageRating": 5
+  ]
+}
+
+
+
+
+db.books.insertOne({"userId":"67cdbb10d343c7b2892c8b1f","title":"A Clockwork Orange","author": "Anthony Burgess","year":1962,"genre":"Science-fiction","ratings":[{"userId":"67cdbb10d343c7b2892c8b1f","rating":5}"averageRating":5]})
+
+
+
+db.books.updateOne({_id: ObjectId(67cdeda15ccafdfb5c51e945)},{$set: {imageUrl: "http://localhost:4000/images/67cdeda15ccafdfb5c51e945.jpg"}})
